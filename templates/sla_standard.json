@@ -1,0 +1,26 @@
+[
+  {
+    "contract_type": "SLA",
+    "clause_type": "liability",
+    "standard_text": "Provider's sole liability and Customer's exclusive remedy for any failure to meet service levels shall be the service credits set forth in this SLA. In no event shall service credits in any calendar month exceed twenty-five percent (25%) of the monthly fees paid by Customer for the affected service. Service credits are not applicable to downtime caused by Customer's actions or third-party services not controlled by Provider.",
+    "risk_baseline": {"severity": "low", "notes": "Credits capped at 25% monthly fee; exclusive remedy is appropriate for SLA"}
+  },
+  {
+    "contract_type": "SLA",
+    "clause_type": "termination",
+    "standard_text": "If Provider fails to meet the minimum service levels for three (3) or more months in any rolling twelve (12) month period, Customer may terminate the applicable Order Form for cause without penalty upon thirty (30) days written notice, in addition to any service credits owed.",
+    "risk_baseline": {"severity": "low", "notes": "Reasonable 3-in-12 threshold for termination; 30-day notice"}
+  },
+  {
+    "contract_type": "SLA",
+    "clause_type": "payment",
+    "standard_text": "Service credits shall be applied to Customer's next invoice following the month in which the service level failure occurred. Credits are not redeemable for cash and shall not be applied to past invoices. Customer must request credits within thirty (30) days of the end of the month in which the service level was not met.",
+    "risk_baseline": {"severity": "low", "notes": "Standard credit mechanism; 30-day claim window is reasonable"}
+  },
+  {
+    "contract_type": "SLA",
+    "clause_type": "other",
+    "standard_text": "Provider shall use commercially reasonable efforts to provide ninety-nine point nine percent (99.9%) monthly uptime for the production environment, measured as ((total minutes - downtime minutes) / total minutes) * 100. Scheduled maintenance windows, not to exceed 4 hours per month with 48 hours advance notice, shall be excluded from uptime calculations.",
+    "risk_baseline": {"severity": "medium", "notes": "99.9% uptime (~43.8 min/month downtime); 4hr maintenance window is standard"}
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "contract_type": "MSA",
+    "clause_type": "liability",
+    "standard_text": "NEITHER PARTY SHALL BE LIABLE TO THE OTHER FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES, INCLUDING LOSS OF REVENUE, PROFITS, OR DATA, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT. EXCEPT FOR PAYMENT OBLIGATIONS AND INDEMNIFICATION OBLIGATIONS, EACH PARTY'S TOTAL CUMULATIVE LIABILITY ARISING OUT OF OR RELATED TO THIS AGREEMENT SHALL NOT EXCEED THE AMOUNTS PAID OR PAYABLE BY CUSTOMER IN THE TWELVE (12) MONTHS IMMEDIATELY PRIOR TO THE CLAIM.",
+    "risk_baseline": {"severity": "medium", "notes": "Standard cap with carve-outs for payment and indemnification"}
+  },
+  {
+    "contract_type": "MSA",
+    "clause_type": "termination",
+    "standard_text": "Either party may terminate this Agreement for cause upon written notice if the other party materially breaches this Agreement and fails to cure such breach within thirty (30) days of receiving written notice of the breach. Either party may terminate this Agreement for convenience upon ninety (90) days written notice.",
+    "risk_baseline": {"severity": "low", "notes": "30-day cure period; 90-day convenience termination; balanced"}
+  },
+  {
+    "contract_type": "MSA",
+    "clause_type": "payment",
+    "standard_text": "Customer shall pay all fees set forth in the applicable Statement of Work within thirty (30) days of invoice. Undisputed amounts not paid within thirty (30) days of the due date shall accrue interest at the lesser of 1.5% per month or the maximum rate permitted by applicable law. Customer is responsible for all taxes associated with the services.",
+    "risk_baseline": {"severity": "low", "notes": "Net-30 payment; 1.5%/month late fee; standard tax allocation"}
+  },
+  {
+    "contract_type": "MSA",
+    "clause_type": "indemnification",
+    "standard_text": "Provider shall indemnify and hold harmless Customer against any third-party claims that the Services, as provided by Provider, infringe any patent, copyright, trademark, or trade secret. Customer shall indemnify Provider against claims arising from Customer's use of the Services in violation of this Agreement or applicable law. Each party's indemnification obligations are conditioned on prompt notification and cooperation.",
+    "risk_baseline": {"severity": "medium", "notes": "IP indemnity by vendor; usage indemnity by customer; standard carve-outs"}
+  },
+  {
+    "contract_type": "MSA",
+    "clause_type": "confidentiality",
+    "standard_text": "Each party agrees to maintain the confidentiality of the other party's Confidential Information with at least the same degree of care used to protect its own confidential information, but in no event less than reasonable care. Confidential Information excludes information that: (a) is or becomes publicly known without breach of this Agreement; (b) was rightfully known before receipt; (c) is independently developed; or (d) is required to be disclosed by law.",
+    "risk_baseline": {"severity": "low", "notes": "Standard mutual NDA with four standard exclusions"}
+  },
+  {
+    "contract_type": "MSA",
+    "clause_type": "IP",
+    "standard_text": "Provider retains all right, title, and interest in the Services, software, and pre-existing intellectual property. Customer retains all right, title, and interest in Customer Data. Any work product created specifically for Customer under a Statement of Work shall be a work made for hire; to the extent it does not qualify as work made for hire, Provider hereby assigns all rights in such work product to Customer.",
+    "risk_baseline": {"severity": "medium", "notes": "Vendor retains platform IP; customer owns data; custom deliverables assigned"}
+  }
+]

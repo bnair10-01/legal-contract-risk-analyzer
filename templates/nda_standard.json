@@ -1,0 +1,32 @@
+[
+  {
+    "contract_type": "NDA",
+    "clause_type": "confidentiality",
+    "standard_text": "Each party agrees to hold the other party's Confidential Information in strict confidence using at least the same degree of care it uses to protect its own confidential information, but in no event less than reasonable care. Neither party shall disclose, publish, or disseminate Confidential Information to anyone other than those with a need to know, and shall use Confidential Information solely for the purposes of evaluating or engaging in the business relationship between the parties.",
+    "risk_baseline": {"severity": "low", "notes": "Standard mutual confidentiality; balanced obligations"}
+  },
+  {
+    "contract_type": "NDA",
+    "clause_type": "termination",
+    "standard_text": "This Agreement shall commence on the Effective Date and shall continue for a period of two (2) years unless earlier terminated by either party upon thirty (30) days prior written notice. Obligations with respect to Confidential Information disclosed prior to termination shall survive for a period of three (3) years from the date of termination.",
+    "risk_baseline": {"severity": "low", "notes": "Standard 2-year term with 30-day notice; 3-year survival"}
+  },
+  {
+    "contract_type": "NDA",
+    "clause_type": "liability",
+    "standard_text": "IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER FOR ANY INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. EACH PARTY'S TOTAL LIABILITY UNDER THIS AGREEMENT SHALL NOT EXCEED THE GREATER OF $50,000 OR THE FEES PAID IN THE TWELVE MONTHS PRECEDING THE CLAIM.",
+    "risk_baseline": {"severity": "medium", "notes": "Mutual cap of $50k or 12-month fees; excludes consequential"}
+  },
+  {
+    "contract_type": "NDA",
+    "clause_type": "IP",
+    "standard_text": "Nothing in this Agreement grants either party any right, title, or interest in or to the other party's Confidential Information, or any license under any patent, copyright, trade secret, or other intellectual property right, except as expressly set forth herein. All Confidential Information remains the property of the disclosing party.",
+    "risk_baseline": {"severity": "low", "notes": "No IP transfer; explicit retention by disclosing party"}
+  },
+  {
+    "contract_type": "NDA",
+    "clause_type": "indemnification",
+    "standard_text": "Each party (as 'Indemnifying Party') shall indemnify, defend, and hold harmless the other party and its officers, directors, employees, and agents from and against any claims, damages, losses, and expenses, including reasonable attorney's fees, arising out of or relating to any breach of this Agreement by the Indemnifying Party.",
+    "risk_baseline": {"severity": "medium", "notes": "Mutual indemnification for breach; reasonable scope"}
+  }
+]
